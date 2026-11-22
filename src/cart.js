@@ -1,7 +1,7 @@
 // 1. Обчислення знижки на основі промокоду
 function applyPromoDiscount(price, promoCode) {
   if (promoCode === 'DISCOUNT10') {
-    return price * 0.9;
+    return price * 0.1;
   }
   if (promoCode === 'SUPER20') {
     return price * 0.8;
